@@ -18,13 +18,6 @@ class IpStorage
     end
   end
 
-    def show
-    
-      p @ip_storage.first(2)
-    end
-
-
-
   def clear
     @ip_storage = {}
   end
