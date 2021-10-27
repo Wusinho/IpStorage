@@ -1,11 +1,10 @@
 class IpStorage
 
   def initialize
-    @ipStorage= {}
+    @ipStorage= Hash.new(0)
   end
 
   def request_handled(ip_address)
-    @ipStorage[ip_address] = 0 if !@ipStorage[ip_address]
     @ipStorage[ip_address] +=1
     
   end
