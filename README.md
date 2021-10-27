@@ -9,4 +9,5 @@
 -This function should return the top 100 IP addresses by request count, with the highest traffic IP address first. This function also needs to be fast. Imagine it needs to provide a quick response (< 300ms) to display on a dashboard, even with 20 millions IP addresses. This is a very important requirement. Don’t forget to satisfy this requirement.
 
     `clear()`
+    
 -Called at the start of each day to forget about all IP addresses and tallies.
